@@ -28,16 +28,18 @@ public class Ejemplo07 {
         double calificacion;
         boolean bandera = true;
 
-        int contador = 0;
+        int contador = 0;// es las veces que el usurio pondra calificiacion
+        // no tiene limite  porque el usuario es el que decide eso al poner -1
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
-        while (bandera) {
-            System.out.println("Ingrese calificación");
+        while (bandera) { // seria lo mismo que while (bandera == true)
+            System.out.println("Ingrese calificación");//10
             calificacion = entrada.nextDouble();
-            suma_total = suma_total + calificacion;
+            suma_total = suma_total + calificacion;//0 + 10
             contador = contador + 1;
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor de -1 para salir del ciclo");
+            //para acabar el ciclo y dejar de sumar se pone -1
             int temporal = entrada.nextInt();
             if (temporal == -1) {
                 bandera = false;
