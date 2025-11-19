@@ -25,16 +25,16 @@ public class Ejemplo032 {
         int contador = 1;
         int suma = 0;
         int valor_ingresado;
-        
-        while (contador <= limite) { 
+
+        while (contador <= limite) {
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
-            if(valor_ingresado>=20 && valor_ingresado<=35){
+            if (valor_ingresado >= 20 && valor_ingresado <= 35) {
                 suma = suma + valor_ingresado;
-            } else{
+            } else {
                 suma = suma + 50;
             }
-            System.out.printf("Valor ingresado %d\n", 
+            System.out.printf("Valor ingresado %d\n",
                     valor_ingresado);
             contador = contador + 1;
         }

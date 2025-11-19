@@ -37,5 +37,6 @@ public class Ejemplo02 {
 /*
 Este codigo usa el metodo while para crear un ciclo el cual el usuario puede
 modificar el limite, el contador el cual no puede ser mayor a el limite esta
-establecido que solo muestre numeros impares
+establecido que solo muestre numeros impares y si el valor llega a ser 0
+el ciclo termina
 */
